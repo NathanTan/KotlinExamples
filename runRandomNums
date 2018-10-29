@@ -1,0 +1,3 @@
+kotlinc randomNums.kt -include-runtime -d randomNums.jar
+echo [compiled]
+java -jar randomNums.jar

@@ -1,0 +1,3 @@
+kotlinc fileIOExample.kt -include-runtime -d fileIO.jar
+echo [compiled]
+java -jar fileIO.jar

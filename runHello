@@ -1,0 +1,3 @@
+kotlinc Hello.kt -include-runtime -d hello.jar
+echo [compiled]
+java -jar hello.jar
