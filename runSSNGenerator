@@ -1,0 +1,3 @@
+kotlinc ssnGenerator.kt -include-runtime -d ssnGenerator.jar
+echo [compiled]
+java -jar ssnGenerator.jar
